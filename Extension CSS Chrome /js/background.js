@@ -56,7 +56,7 @@
         }
     );
 
-    ///работает при клике на иконку
+    
     chrome.browserAction.onClicked.addListener(function (tab) {
         var url = tab.url;
 
